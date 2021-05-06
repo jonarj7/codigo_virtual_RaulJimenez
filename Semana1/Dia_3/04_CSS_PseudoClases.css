@@ -1,0 +1,11 @@
+/*
+De casa grupo de el elemento, el que ocupe la 3raposicion sera afectado
+elemento:nth-child(3)*/
+
+tbody tr:nth-child(even){
+    background-color:darkcyan;
+}
+
+tbody tr:nth-child(odd){
+    background-color:coral;
+}

@@ -1,0 +1,55 @@
+/*
+h2 selecciona a todos los h2 de la página
+*/
+
+h2 {
+    color: darkslategrey;
+}
+
+h2 span {
+    font-size: 40px;
+    color:lightcoral;
+}
+p,h1{
+    color: darkslateblue;
+}
+
+/*Todo elemento que tenga clase tendrá una "sombra"*/
+.sombra {
+    box-shadow: 0px 2px 8px dodgerblue;
+}
+
+.text-success{
+    color: green;
+}
+
+.text-danger{
+    color: indianred;
+}
+
+/*
+section p -->Todos los parrafos que sean descendientes de un section
+pueden ser hijo, nietos, etc etc
+*/
+
+section p{
+font-size: 16px;
+}
+
+p .badge-black{
+    color: indigo;
+}
+
+ul > li{
+    font-style: oblique;
+}
+
+ol > li{
+    font-style: normal;
+}
+
+/*Pseudo -clases*/
+
+ul > li:hover{
+    background-color: lightpink;
+}
