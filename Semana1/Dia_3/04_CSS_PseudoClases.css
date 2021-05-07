@@ -9,3 +9,33 @@ tbody tr:nth-child(even){
 tbody tr:nth-child(odd){
     background-color:coral;
 }
+
+nav li{
+    display: inline-block;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-right: 10px;
+    color: darkgoldenrod;
+}
+
+.nav-link.active{
+    font-style: italic;
+}
+
+/*El primer hermano P de H3*/
+h3+p{
+    color: darkseagreen;
+}
+
+article:not(.agotado){
+width: 300px;
+box-shadow: 0px 0px 8px darkseagreen;
+}
+
+article :not(h4){
+    font-style: italic;
+}
+
