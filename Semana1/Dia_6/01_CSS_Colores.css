@@ -1,70 +1,72 @@
-
-:root{
---color-primario :#0dabb6;
---color-secundario: rgb(57, 238, 112);
---color-transparente: rgb(94, 114, 228);
+:root {
+  --color-primario: #0dabb6;
+  --color-secundario: rgb(57, 238, 112);
+  --color-transparente: rgb(94, 114, 228);
 }
 
-*{
-margin:0;
-box-sizing:border-box;
-padding:0;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
 
-h1{
-    color: var(--color-primario);
-    background-color: #ddd;
-    padding: 10px 20px;
-} 
-
-
-.form-control{
-    border: none;
-    outline: none;
-    padding: 8px; 
-    border-bottom: 1px solid var(--color-primario);
-    margin-bottom: 50px;
+h1 {
+  color: var(--color-primario);
+  background-color: #ddd;
+  padding: 10px 20px;
 }
 
-.cuadrado{
-    height: 200px;
-    width: 200px;
-    background-color: var(--color-secundario); 
+.form-control {
+  border: none;
+  outline: none;
+  padding: 8px 8px 8px 28px;
+  border-bottom: 5px solid var(--color-primario);
+  margin-bottom: 50px;
+  background-image: url(./../imagenesGlobal/iconID.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 24px 24px;
+}
+
+.cuadrado {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: var(--color-secundario);
 }
 
 /*Tamaños*/
 
-.seccion1{
-    background-color: var(--color-transparente);
-    height: 60px;
-    width: 50%;
-
+.seccion1 {
+  background-color: var(--color-transparente);
+  height: 60px;
+  width: 50%;
 }
 
-.articulo1{
-    background-color: var(--color-secundario);
-    height: 30px;
-    
+.articulo1 {
+  background-color: var(--color-secundario);
+  height: 30px;
 }
 
-.parrafo1{
-    width: 200px;
-    height: 100px;
-    background-color: #ddd;
-    overflow:scroll;/*permite ocntrolar el desbordamiento del contenido*/
+.parrafo1 {
+ 
+  background-color: #ddd;
+  overflow: hidden; /*permite ocntrolar el desbordamiento del contenido*/
 }
 
-
-.parrafo1::-webkit-scrollbar{
-    width: 0px;
-
+.parrafo1::-webkit-scrollbar {
+  width: 0px;
 }
 
-.parrafo1::-webkit-scrollbar-thumb{
-    border-radius: 5px;
-    background-color: lightsalmon;
+.parrafo1::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: lightsalmon;
 }
 
-.parrafo1::-webkit-scrollbar-track{
-    color: lightcoral;
+.parrafo1::-webkit-scrollbar-track {
+  color: lightcoral;
+}
+
+.form-control:focus{
+    background-image: url(./../imagenesGlobal/tarjeta\ \(1\).png);
 }
