@@ -39,3 +39,44 @@ article :not(h4){
     font-style: italic;
 }
 
+
+@font-face {
+    font-family: 'FontFascinate';
+    src: url('../FuentesGlobal/Fascinate-Regular.ttf');
+}
+
+section h2 { 
+    font-family: 'FontFascinate';
+    color:crimson;
+}
+
+
+
+@font-face {
+    font-family: 'FontItim';
+    src: url('../FuentesGlobal/Itim-Regular.ttf');
+}
+
+section h3 { 
+    font-family: 'FontItim';
+    color: darkolivegreen;
+}
+
+a {
+    background-color: rgb(78, 144, 219);
+    color: rgb(10, 5, 5);
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+    font-family: "FontItim"
+}
+
+a:hover {
+    background-color: rgb(107, 230, 26);
+    color: #000;
+    border: 1px solid rgb(192, 230, 26);
+}
+
+ .baack {
+    background: radial-gradient(red, yellow, rgb(30, 144, 255));
+}

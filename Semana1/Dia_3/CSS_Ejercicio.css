@@ -1,0 +1,13 @@
+
+
+
+@font-face {
+    font-family: 'FontFascinate';
+    src: url('../FuentesGlobal/Fascinate-Regular.ttf');
+}
+
+section h2 { 
+    font-family: 'FontFascinate';
+    color:crimson;
+}
+

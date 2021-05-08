@@ -1,0 +1,72 @@
+
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+@font-face {
+    font-family: 'miPrimeraFuenta';
+    src: url('../fuentesGlobales/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'miFuenteMedium';
+    src: url('../fuentesGlobales/Montserrat-Medium.ttf')
+}
+
+@font-face {
+    font-family: 'miFuenteBold';
+    src: url('../fuentesGlobales/Montserrat-Bold.ttf')
+}
+
+h1, h2 {
+    font-family: "miPrimeraFuenta";
+    color: #ce055c;
+}
+
+.descripcion {
+    font-family: "miFuenteMedium";
+    font-size: 12px;
+    width: 200px;   
+    height: 80px;
+    overflow: scroll;
+}
+
+.segundo__titulo {
+    font-family: "miFuenteBold"
+}
+
+.fuente__link {
+   font-family: 'Courgette', cursive;
+}
+
+a {
+    background-color: #c00;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
+    font-family: "miPrimeraFuenta"
+}
+
+a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #c00;
+}
+
+.portada{
+background-image: url("../imagenesGlobal/unknown.png");
+background-position: center;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.tercerparrafo{
+    font: 16px;
+    border: 1px solid #c00;
+    background: linear-gradient(60deg, rgb(216, 129, 48), #444);    
+}
+
+.foto{
+    filter: hue-rotate(405deg);
+}
