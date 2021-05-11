@@ -1,0 +1,35 @@
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+.color-primario{
+    color: blueviolet;
+}
+
+header{
+    height: 60px;
+    box-shadow: 0px 0px 8px #bbb;
+}
+
+.navegacion{
+    display: block;
+}
+
+aside{
+    /*CALC --> Permite hacer calculos con diferentes unidades de medida*/
+    height: calc(100vh - 60px);
+    width: 240px;
+    background-color: cadetblue;
+}
+
+section, aside{
+    display: inline-block;
+ }
+
+ section{
+     width: calc(100% - 250px);
+     height: calc(100vh - 60px);
+     background-color: darkgreen;
+ }
