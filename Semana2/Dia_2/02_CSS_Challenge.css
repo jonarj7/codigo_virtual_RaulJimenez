@@ -19,6 +19,12 @@ body{
     position: relative;
 }
 
+.card_info{
+    border:2px solid orange;
+}
+
+
+
 .card figure img{
     height: 400px;
     width: 500px;
@@ -47,7 +53,7 @@ body{
     align-items: center;
     font-size: 14px;
     bottom: 0px;
-    left: opx;
+    left: 0px;
     width: 80px;
     height: 30px;
     background-color: rgb(204, 84, 14);
@@ -72,3 +78,19 @@ h3{
 .card_feed li {
 		display: inline;
 	}
+
+.card:hover img {
+        filter: blur(3px);
+        opacity: .5;
+        transition: all 1s;
+      
+      }
+
+
+
+
+
+
+
+
+  
