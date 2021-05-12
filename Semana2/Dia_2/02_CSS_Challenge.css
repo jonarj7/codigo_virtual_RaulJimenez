@@ -1,0 +1,74 @@
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: beige;
+}
+
+
+.card{
+    height: 400px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px cadetblue;
+    margin: 100px auto 0 auto;
+    position: relative;
+}
+
+.card figure img{
+    height: 400px;
+    width: 500px;
+}
+
+.card_date{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    top: 30px;
+    right: 5px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(204, 84, 14);
+    border-radius: 50%;
+}
+
+.card_foto{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    bottom: 0px;
+    left: opx;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(204, 84, 14);
+}
+
+h2{
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+h3{
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: rgb(214, 119, 51);
+}
+
+
+.card_feed li {
+		display: inline;
+	}

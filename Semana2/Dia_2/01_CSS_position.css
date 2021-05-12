@@ -4,6 +4,11 @@ box-sizing:border-box;
 padding:0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     min-height: 100vh;
     background-color: #333;
@@ -75,5 +80,21 @@ position: relative;
       font-size: 24px;
       transition: 3s;
       transform: translate(-50%, -50%);
+  }
+
+  .boton-fixed {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      border: 2px solid rgb(73, 59, 204);
+      position: fixed;
+      bottom: 0%;
+      right: 5%;
+      text-align: center;
+      color: white;
+      padding-top: 5px;
+  }
+  .boton-fixed a {
+      color: thistle;
   }
 
