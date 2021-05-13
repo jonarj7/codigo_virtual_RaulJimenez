@@ -1,0 +1,25 @@
+*{
+margin:0;
+box-sizing:border-box;
+padding:0;
+}
+
+.header{
+    background-color: rgb(231, 230, 225);
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+.header_nav{
+    flex:1;
+}
+
+.header_links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap:2rem; /*Define un spacio entre hijo e hijo en el area principal*/
+}
