@@ -1,0 +1,10 @@
+@mixin flex-row($jc: flex-start, $ai: stretch) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@mixin flex-column($jc: flex-start, $ai: stretch) {
+    flex-direction: column;
+    @include flex-row($jc, $ai );
+}
