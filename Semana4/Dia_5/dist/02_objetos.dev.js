@@ -31,6 +31,19 @@ console.log(objTrabajador);
 objTrabajador.datosPersonales.telefono = "35478219"; //////
 
 var ajiGallina = {
+  imprimirIngredientes: function imprimirIngredientes() {
+    for (var i = 0; i < ajiGallina.ingrediente.length; i++) {
+      console.log("".concat(ajiGallina.ingrediente[i].nombre, " ").concat(ajiGallina.ingrediente[i].cant, " ").concat(ajiGallina.ingrediente[i].um));
+    }
+  },
+  agregaIngrediente: function agregaIngrediente(unidaM, cantidad, nombreI) {
+    var objetoIngrediente = {
+      nombre: nombreI,
+      um: unidaM,
+      cant: cantidad
+    };
+    ajiGallina, this.ingrediente.push(objetoIngrediente);
+  },
   nombre: "Ají de gallina",
   precio: 12.00,
   ingrediente: [{
@@ -43,8 +56,5 @@ var ajiGallina = {
     cant: 200
   }]
 };
-console.log(ajiGallina); //Accceder al arreglo de ingredientes
-
-for (var i = 0; i < ajiGallina.ingrediente.length; i++) {
-  console.log("".concat(ajiGallina.ingrediente[i].nombre, " ").concat(ajiGallina.ingrediente[i].cant, " ").concat(ajiGallina.ingrediente[i].um));
-}
+console.log(ajiGallina);
+ajiGallina.agregaIngrediente("unidades", 2, "aceituna");
